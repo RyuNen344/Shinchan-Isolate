@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shinchan/page_title.dart';
+import 'package:shinchan/page_opening.dart';
 import 'package:shinchan/theme/color_schemes.dart';
 
 class ShinchanApp extends StatelessWidget {
@@ -10,7 +10,7 @@ class ShinchanApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: darkColorScheme,
       ),
-      home: TitlePage(title: 'Flutter Demo Home Page'),
+      home: OpeningPage(),
     );
   }
 }
