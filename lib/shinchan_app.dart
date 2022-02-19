@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shinchan/page_title.dart';
+import 'package:shinchan/theme/color_schemes.dart';
 
 class ShinchanApp extends StatelessWidget {
   @override
@@ -7,7 +8,7 @@ class ShinchanApp extends StatelessWidget {
     return MaterialApp(
       title: 'Shinchan',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        colorScheme: darkColorScheme,
       ),
       home: TitlePage(title: 'Flutter Demo Home Page'),
     );
